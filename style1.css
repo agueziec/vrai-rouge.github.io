@@ -1,0 +1,133 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue-Italic;\f1\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab560
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\i\fs26 \cf0 /* Global Styles */
+\f1\i0 \
+body \{\
+    font-family: 'Helvetica Neue', Arial, sans-serif;\
+    margin: 0;\
+    color: #333;\
+    line-height: 1.6;\
+    background-color: #fafafa;\
+\}\
+\
+
+\f0\i /* Magenta Theme */
+\f1\i0 \
+:root \{\
+    --primary-color: #d81b60; 
+\f0\i /* Magenta */
+\f1\i0 \
+    --secondary-color: #ffffff; 
+\f0\i /* White */
+\f1\i0 \
+    --text-color: #333333; 
+\f0\i /* Dark text */
+\f1\i0 \
+\}\
+\
+
+\f0\i /* Hero Section */
+\f1\i0 \
+.hero \{\
+    background: var(--primary-color);\
+    color: var(--secondary-color);\
+    text-align: center;\
+    padding: 4rem 1rem;\
+    position: relative;\
+\}\
+\
+.bottle-image \{\
+    max-width: 300px;\
+    margin: 0 auto 1rem;\
+    display: block;\
+\}\
+\
+.hero h1 \{\
+    font-size: 3rem;\
+    margin: 0.5rem 0;\
+    letter-spacing: 1.5px;\
+\}\
+\
+.tagline \{\
+    font-size: 1.5rem;\
+    margin: 1rem 0;\
+\}\
+\
+.hero .btn \{\
+    display: inline-block;\
+    background: #ffffff;\
+    color: var(--primary-color);\
+    padding: 0.75rem 1.5rem;\
+    border-radius: 5px;\
+    text-decoration: none;\
+    font-size: 1rem;\
+    font-weight: bold;\
+    transition: all 0.3s ease;\
+\}\
+\
+.hero .btn:hover \{\
+    background: var(--secondary-color);\
+    color: #333;\
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);\
+\}\
+\
+
+\f0\i /* Section Styles */
+\f1\i0 \
+.section \{\
+    padding: 2rem 1rem;\
+    text-align: center;\
+\}\
+\
+.section h2 \{\
+    font-size: 2rem;\
+    color: var(--primary-color);\
+    margin-bottom: 1rem;\
+\}\
+\
+.wine-card \{\
+    background: #ffffff;\
+    padding: 1rem;\
+    margin: 1rem auto;\
+    border-radius: 10px;\
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\
+    max-width: 300px;\
+    display: inline-block;\
+\}\
+\
+.wine-card img \{\
+    max-width: 100%;\
+    border-radius: 5px;\
+\}\
+\
+.wine-card h3 \{\
+    margin: 0.5rem 0;\
+    color: var(--primary-color);\
+\}\
+\
+
+\f0\i /* Footer */
+\f1\i0 \
+.footer \{\
+    background: var(--primary-color);\
+    color: var(--secondary-color);\
+    padding: 1rem 0;\
+    text-align: center;\
+\}\
+\
+.footer a \{\
+    color: var(--secondary-color);\
+    text-decoration: none;\
+\}\
+\
+.footer a:hover \{\
+    text-decoration: underline;\
+\}\
+\
+}
