@@ -54,6 +54,17 @@ ul {
     padding-left: 20px;
 }
 
+img.rounded {
+    border-radius: 10%;
+}
+img.responsive {
+    max-width: 100%;
+    display:block;
+    margin: 0 auto;
+    height: auto;
+    border-radius: 15px;
+}
+
 /* Footer */
 .footer {
     background: #4e342e;
